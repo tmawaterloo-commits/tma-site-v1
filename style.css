@@ -174,7 +174,7 @@ body {
 }
 
 .nav-logo-img {
-  height: 44px;
+  height: clamp(60px, 6vw, 120px);
   width: auto;
   display: block;
   filter: drop-shadow(0 0 8px rgba(212,175,55,0.2));
